@@ -1,0 +1,14 @@
+C:\Algorithm\CS_Study\CStudy\bin\Debug\netcoreapp3.1\CStudy.exe
+C:\Algorithm\CS_Study\CStudy\bin\Debug\netcoreapp3.1\CStudy.deps.json
+C:\Algorithm\CS_Study\CStudy\bin\Debug\netcoreapp3.1\CStudy.runtimeconfig.json
+C:\Algorithm\CS_Study\CStudy\bin\Debug\netcoreapp3.1\CStudy.runtimeconfig.dev.json
+C:\Algorithm\CS_Study\CStudy\bin\Debug\netcoreapp3.1\CStudy.dll
+C:\Algorithm\CS_Study\CStudy\bin\Debug\netcoreapp3.1\CStudy.pdb
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.csproj.AssemblyReference.cache
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.AssemblyInfoInputs.cache
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.AssemblyInfo.cs
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.csproj.CoreCompileInputs.cache
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.dll
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.pdb
+C:\Algorithm\CS_Study\CStudy\obj\Debug\netcoreapp3.1\CStudy.genruntimeconfig.cache
