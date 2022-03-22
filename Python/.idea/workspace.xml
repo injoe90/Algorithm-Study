@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de53e00-88ab-4dbe-958c-28cf578cb9e4" name="Changes" comment="" />
+    <list default="true" id="3de53e00-88ab-4dbe-958c-28cf578cb9e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/BackupStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/BackupStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/BackupStack.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/BackupStack.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.log" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/BackupStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/BackupStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Java/BackupStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Java/BackupStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/BackupStackKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/BackupStackKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack_study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../알고리즘 문제 목록.md" beforeDir="false" afterPath="$PROJECT_DIR$/../알고리즘 문제 목록.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +50,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="24ckc4efsG4OJBemtWa7MQRTLSu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,10 +62,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Crawling_Study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.stack_study">
+  <component name="RunManager" selected="Python.math_study">
     <configuration name="backup_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup_stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="math_study" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_study.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,8 +173,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.stack_study" />
+        <item itemvalue="Python.math_study" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.stack_study" />
         <item itemvalue="Python.backup_queue" />
         <item itemvalue="Python.backup_stack" />
       </list>

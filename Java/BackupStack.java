@@ -204,6 +204,25 @@ public class BackupStack {
 //            }
 //        }
 //        System.out.println(rodCount);
+// 오큰수: 17298번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int rangeNumber = Integer.parseInt(br.readLine());
+//        Stack<Integer> numberStack = new Stack<>();
+//        numberStack.push(0);
+//        String[] resultList = new String[rangeNumber];
+//        String[] inputList = br.readLine().split(" ");
+//        for (int i = 1; i < inputList.length; i++) {
+//            while (!numberStack.isEmpty() &&  Integer.parseInt(inputList[i]) > Integer.parseInt(inputList[numberStack.peek()])) {
+//                resultList[numberStack.pop()] = inputList[i];
+//            }
+//            numberStack.push(i);
+//        }
+//        while (!numberStack.isEmpty()) resultList[numberStack.pop()] = "-1";
+//
+//        StringBuilder resultString = new StringBuilder();
+//
+//        for (String item : resultList) resultString.append(item).append(" ");
+//        System.out.println(resultString);
     }
 //    public static String BracketResult(String inputList) {
 //        Stack<Character> stackBracket = new Stack<>();

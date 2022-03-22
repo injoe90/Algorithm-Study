@@ -143,6 +143,7 @@
     <ClCompile Include="BackUp.cpp" />
     <ClCompile Include="BackupStack.cpp" />
     <ClCompile Include="BackupQueue.cpp" />
+    <ClCompile Include="BackupMath.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
