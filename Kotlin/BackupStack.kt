@@ -179,7 +179,7 @@ fun main() {
 //
 //    println(rodCount)
 
-// 오등큰수: 17299번
+// 오큰수: 17299번
 //    val br = BufferedReader(InputStreamReader(System.`in`))
 //    val rangeNumber = br.readLine().toInt()
 //    val numberList = br.readLine().split(" ").map { it.toInt() }

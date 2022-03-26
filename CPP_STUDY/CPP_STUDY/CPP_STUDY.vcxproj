@@ -139,11 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CPP_STUDY.cpp" />
     <ClCompile Include="BackUp.cpp" />
     <ClCompile Include="BackupStack.cpp" />
     <ClCompile Include="BackupQueue.cpp" />
     <ClCompile Include="BackupMath.cpp" />
+    <ClCompile Include="CPP_STUDY.cpp" />
+    <ClCompile Include="PrimeNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

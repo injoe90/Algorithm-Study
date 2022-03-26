@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPP_STUDY.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BackUp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -28,6 +25,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="BackupMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP_STUDY.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeNumber.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
