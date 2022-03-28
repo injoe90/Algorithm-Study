@@ -76,3 +76,22 @@
 //    for (int i = 4; i <= n; i++) nCount[i] = nCount[i - 1] + nCount[i - 2] + nCount[i - 3];
 //    return nCount[n];
 //}
+
+// 카드 구매하기: 11052번
+//int maxPay[1001];
+//int a;
+//scanf_s("%d", &a);
+//for (int i = 1; i <= a; i++) {
+//    int input;
+//    scanf_s(" %d", &input);
+//    maxPay[i] = input;
+//}
+//for (int i = 2; i <= a; i++) {
+//    for (int j = 1; j <= i - 1; j++) {
+//        if (maxPay[i - j] > 0) {
+//            int temp = maxPay[j] + maxPay[i - j];
+//            if (temp > maxPay[i]) maxPay[i] = temp;
+//        }
+//    }
+//}
+//printf("%d\n", maxPay[a]);

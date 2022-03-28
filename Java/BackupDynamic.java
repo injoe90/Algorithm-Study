@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class BackupDynamic {
     public static void main(String[] args) {
     }
@@ -55,4 +58,18 @@ public class BackupDynamic {
 //        for (int i = 4; i <= n; i++) nCount[i] = nCount[i - 1] + nCount[i - 2] + nCount[i - 3];
 //        return nCount[n];
 //    }
+
+// 카드 구매하기: 11052번
+//    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//    int targetNumber = Integer.parseInt(br.readLine());
+//    String[] inputList = br.readLine().split(" ");
+//    int[] maxPay = new int[targetNumber + 1];
+//        for (int i = 1; i <= targetNumber; i++) maxPay[i] = Integer.parseInt(inputList[i - 1]);
+//        for (int i = 2; i <= targetNumber; i++) {
+//        for (int j = 1; j <= i - 1; j++) {
+//            int temp = maxPay[j] + maxPay[i - j];
+//            if (temp > maxPay[i]) maxPay[i] = temp;
+//        }
+//    }
+//        System.out.println(maxPay[targetNumber]);
 }

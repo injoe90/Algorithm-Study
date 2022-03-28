@@ -1,5 +1,20 @@
-fun main() {
+import java.io.BufferedReader
+import java.io.InputStreamReader
 
+fun main() {
+// 카드 구매하기: 11052번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val n = br.readLine().toInt()
+//    val inputList = br.readLine().split(" ").map { it.toInt() }
+//    val maxPay = IntArray(n + 1)
+//    for (i in 1..n) maxPay[i] = inputList[i - 1]
+//    for (i in 2..n) {
+//        for (j in 1 until i) {
+//            val temp = maxPay[j] + maxPay[i - j]
+//            if (temp > maxPay[i]) maxPay[i] = temp
+//        }
+//    }
+//    println(maxPay[n])
 }
 
 // 1로 만들기: 1463번

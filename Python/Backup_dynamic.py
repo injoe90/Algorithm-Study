@@ -68,3 +68,25 @@ sys.setrecursionlimit(100000)
 #
 # if __name__ == '__main__':
 #     for _ in range(int(sys.stdin.readline())): print(oneTwoThree(int(sys.stdin.readline())))
+
+# 카드 구매하기: 11052번 & 카드 구매하기 2: 16194번
+# def max_card_pay(card_number, input_list):
+#     each_pay = [0] + input_list
+#     for i in range(2, card_number + 1):
+#         for j in range(1, int(i // 2) + 1):
+#             temp = each_pay[j] + each_pay[i - j]
+#             if temp > each_pay[i]: each_pay[i] = temp
+#     return each_pay[card_number]
+#
+# def max_card_pay(card_number, input_list):
+#     each_pay = [0] + input_list
+#     for i in range(2, card_number + 1):
+#         for j in range(1, int(i // 2) + 1):
+#             temp = each_pay[j] + each_pay[i - j]
+#             if temp < each_pay[i]: each_pay[i] = temp
+#     return each_pay[card_number]
+#
+# if __name__ == '__main__':
+#     card_number = int(sys.stdin.readline())
+#     input_list = list(map(int, sys.stdin.readline().split(" ")))
+#     print(max_card_pay(card_number, input_list))
