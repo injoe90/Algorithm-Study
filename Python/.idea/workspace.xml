@@ -7,19 +7,26 @@
     <list default="true" id="3de53e00-88ab-4dbe-958c-28cf578cb9e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/.vs/CPP_STUDY/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/BackupDynamic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/BackupDynamic.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/CPP_STUDY.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/BackupDynamic.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/BackupDynamic.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/CPP_STUDY.tlog/link.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/CPP_STUDY/Debug/vc142.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP_STUDY/Debug/CPP_STUDY.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/BackupDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/BackupDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Java/BackupDynamic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Java/BackupDynamic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/Java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/Java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/BackupDynamic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/BackupDynamic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/BackupDynamicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/BackupDynamicKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/out/production/Kotlin/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backup_dynamic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backup_dynamic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/math_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/math_study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.math_study">
     <configuration name="backup_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.math_study" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.stack_study" />
         <item itemvalue="Python.backup_queue" />
         <item itemvalue="Python.backup_stack" />

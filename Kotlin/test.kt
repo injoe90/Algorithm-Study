@@ -9,4 +9,5 @@ import kotlin.math.sqrt
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
+
 }
