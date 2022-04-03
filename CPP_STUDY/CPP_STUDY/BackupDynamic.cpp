@@ -148,3 +148,83 @@
 //+ stepCount[index - 1][3] + stepCount[index - 1][4] + stepCount[index - 1][5] + stepCount[index - 1][6]
 //+ stepCount[index - 1][7] + stepCount[index - 1][8] + stepCount[index - 1][9];
 //cout << temp % 1000000000 << "\n";
+
+// 가장 긴 증가하는 부분 수열: 11053번
+//int length = 0, temp, rangeNumber, numberList[1000], result[1000];
+//scanf("%d", &rangeNumber);
+//for (int i = 0; i < rangeNumber; i++) {
+//    scanf(" %d", &temp);
+//    numberList[i] = temp;
+//}
+//for (int i = 0; i < rangeNumber; i++) {
+//    result[i] = 1;
+//    for (int j = 0; j < i; j++) {
+//        if ((numberList[i] > numberList[j]) && (result[j] + 1 > result[i])) result[i] = result[j] + 1;
+//    }
+//}
+//for (int item : result) {
+//    if (item > length) length = item;
+//}
+//printf("%d", length);
+
+// 가장 긴 증가하는 부분 수열 4: 14002번
+//int a[1000];
+//int d[1000];
+//int v[1000];
+//void go(int p) {
+//    if (p == -1) {
+//        return;
+//    }
+//    go(v[p]);
+//    cout << a[p] << ' ';
+//}
+//int main() {
+//    int n;
+//    cin >> n;
+//    for (int i = 0; i < n; i++) {
+//        cin >> a[i];
+//    }
+//    for (int i = 0; i < n; i++) {
+//        d[i] = 1;
+//        v[i] = -1;
+//        for (int j = 0; j < i; j++) {
+//            if (a[j] < a[i] && d[i] < d[j] + 1) {
+//                d[i] = d[j] + 1;
+//                v[i] = j;
+//            }
+//        }
+//    }
+//    int ans = d[0];
+//    int p = 0;
+//    for (int i = 0; i < n; i++) {
+//        if (ans < d[i]) {
+//            ans = d[i];
+//            p = i;
+//        }
+//    }
+//    cout << ans << '\n';
+//    go(p);
+//    cout << '\n';
+//    return 0;
+//}
+
+// 연속합: 1912번
+//ios_base::sync_with_stdio(false);
+//cin.tie(nullptr);
+//
+//int n, maxValue, input[100000], result[100000];
+//cin >> n;
+//for (int i = 0; i < n; i++) {
+//    int temp;
+//    cin >> temp; input[i] = temp;
+//}
+//for (int i = 0; i < n; i++) {
+//    result[i] = input[i];
+//    if (i == 0) continue;
+//    if (result[i] < result[i - 1] + input[i]) result[i] = result[i - 1] + input[i];
+//}
+//for (int i = 0; i < n; i++) {
+//    if (i == 0) maxValue = result[0];
+//    if (result[i] > maxValue) maxValue = result[i];
+//}
+//cout << maxValue << "\n";

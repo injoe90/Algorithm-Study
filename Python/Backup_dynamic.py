@@ -138,3 +138,50 @@ sys.setrecursionlimit(100000)
 #
 # index = int(sys.stdin.readline()) - 1
 # print(pinary_number[index][0] + pinary_number[index][1])
+
+# 가장 긴 증가하는 부분 수열: 11053번
+# input_number = int(sys.stdin.readline())
+# number_list = list(map(int, sys.stdin.readline().split(" ")))
+# result_number = [0 for _ in range(input_number)]
+#
+# for i in range(input_number):
+#     result_number[i] = 1
+#     for j in range(i):
+#         if number_list[i] > number_list[j] and result_number[j] + 1 > result_number[i]:
+#             result_number[i] = result_number[j] + 1
+#
+# print(max(result_number))
+
+# 가장 긴 증가하는 부분 수열 4: 14002번
+# def trace_index(n):
+#     if n == -1: return
+#     trace_index(result_index[n])
+#     print(number_list[n], end=" ")
+#
+# input_number = int(sys.stdin.readline())
+# number_list = list(map(int, sys.stdin.readline().split(" ")))
+# result_count = [0 for _ in range(input_number)]
+# result_index = [-1] * input_number
+# for i in range(input_number):
+#     result_count[i] = 1
+#     for j in range(i):
+#         if number_list[i] > number_list[j] and result_count[j] + 1 > result_count[i]:
+#             result_count[i] = result_count[j] + 1
+#             result_index[i] = j
+# length = max(result_count)
+#
+# first_index = result_count.index(length)
+#
+# print(length)
+# trace_index(first_index)
+
+# 연속합: 1912번
+# n = int(sys.stdin.readline())
+#
+# number_list = list(map(int, sys.stdin.readline().split(" ")))
+# result = [0] * n
+# for i in range(n):
+#     result[i] = number_list[i]
+#     if i == 0: continue
+#     if result[i - 1] + number_list[i] > result[i]: result[i] = result[i - 1] + number_list[i]
+# print(max(result))

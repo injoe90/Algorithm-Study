@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class BackupDynamic {
     public static void main(String[] args) {
@@ -48,6 +50,76 @@ public class BackupDynamic {
 //                stepCount[indexNubmer - 1][0] + stepCount[indexNubmer - 1][1] + stepCount[indexNubmer - 1][2] + stepCount[indexNubmer - 1][3] + stepCount[indexNubmer - 1][4] +
 //                        stepCount[indexNubmer - 1][5] + stepCount[indexNubmer - 1][6] + stepCount[indexNubmer - 1][7] + stepCount[indexNubmer - 1][8] + stepCount[indexNubmer - 1][9];
 //        System.out.println(temp % 1000000000);
+
+// 가장 긴 증가하는 부분 수열: 11053번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int rangeNumber = Integer.parseInt(br.readLine());
+//        int length = 0;
+//        String[] numberList = br.readLine().split(" ");
+//        int[] result = new int[1000];
+//        for (int i = 0; i < rangeNumber; i++) {
+//            result[i] = 1;
+//            for (int j = 0; j < i; j++) {
+//                if (Integer.parseInt(numberList[i]) > Integer.parseInt(numberList[j]) && result[j] + 1 > result[i]) result[i] = result[j] + 1;
+//            }
+//        }
+//        for (int item : result) if (item > length) length = item;
+//        System.out.println(length);
+
+// 가장 긴 증가하는 부분 수열 4: 14002번
+//        static String[] numberList;
+//        public static void main(String[] args) throws IOException {
+//            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//            int rangeNumber = Integer.parseInt(br.readLine());
+//            int length = 0; int indexNumber = 0;
+//            numberList = br.readLine().split(" ");
+//            int[] result = new int[1000]; ArrayList<Integer> index = new ArrayList<>();
+//
+//            for (int i = 0; i < 1000; i ++) index.add(-1);
+//
+//            for (int i = 0; i < rangeNumber; i++) {
+//                result[i] = 1;
+//                for (int j = 0; j < i; j++) {
+//                    if (Integer.parseInt(numberList[i]) > Integer.parseInt(numberList[j]) && result[j] + 1 > result[i]) {
+//                        result[i] = result[j] + 1;
+//                        index.set(i, j);
+//                    }
+//                }
+//            }
+//            for (int i = 0; i < rangeNumber; i++) {
+//                if (result[i] > length) {
+//                    length = result[i];
+//                    indexNumber = i;
+//                }
+//            }
+//            for (int item : result) if (item > length) length = item;
+//            System.out.println(length);
+//            traceIndex(indexNumber, index);
+//        }
+//        public static void traceIndex(int n, ArrayList<Integer> index) {
+//            if (n == -1) return;
+//            traceIndex(index.get(n), index);
+//            System.out.print(numberList[n] + " ");
+//        }
+
+// 연속합: 1912번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine());
+//        int maxValue = 0;
+//        String[] inputList = br.readLine().split(" ");
+//        int[] resultList = new int[n];
+//        for (int i = 0; i < n; i++) {
+//            resultList[i] = Integer.parseInt(inputList[i]);
+//            if (i == 0) continue;
+//            if (resultList[i - 1] + Integer.parseInt(inputList[i]) > resultList[i]) {
+//                resultList[i] = resultList[i - 1] + Integer.parseInt(inputList[i]);
+//            }
+//        }
+//        for (int i = 0; i < n; i++) {
+//            if (i == 0) maxValue = resultList[i];
+//            if (resultList[i] > maxValue) maxValue = resultList[i];
+//        }
+//        System.out.println(maxValue);
     }
 // 1로 만들기: 1463번
 //    public  static  int makeOne(int n) {

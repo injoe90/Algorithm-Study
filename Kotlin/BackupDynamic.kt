@@ -1,6 +1,7 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
+//val index = IntArray(1000) {-1}
 fun main() {
 // 카드 구매하기: 11052번
 //    val br = BufferedReader(InputStreamReader(System.`in`))
@@ -70,6 +71,64 @@ fun main() {
 //    val indexNumber = br.readLine().toInt()
 //    val temp = stepCount[indexNumber - 1].sum()
 //    println(temp % 1000000000)
+
+// 가장 긴 증가하는 부분 수열: 11053번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val rangeNumber = br.readLine().toInt()
+//    val numberList = br.readLine().split(" ").map { it.toInt() }
+//    val result = IntArray(1000)
+//    for (i in 0 until rangeNumber) {
+//        result[i] = 1
+//        for (j in 0 until i) {
+//            if ((numberList[i] > numberList[j]) && result[j] + 1 > result[i]) result[i] = result[j] + 1
+//        }
+//    }
+//    var length = 0;
+//    for (item in result) if (item > length) length = item
+//    println(length)
+
+// 가장 긴 증가하는 부분 수열 4: 14002번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val n = br.readLine().toInt()
+//    var initNumber = 0
+//    var length = 0
+//    val numberList = br.readLine().split(" ").map { it.toInt() }
+//    val resultCount = IntArray(1000)
+//
+//    for (i in 0 until n) {
+//        resultCount[i] = 1
+//        for (j in 0 until i) {
+//            if ((numberList[i] > numberList[j]) && resultCount[j] + 1 > resultCount[i]) {
+//                resultCount[i] = resultCount[j] + 1
+//                index[i] = j
+//            }
+//        }
+//    }
+//    for (i in 0 until n) {
+//        if (resultCount[i] > length) {
+//            length = resultCount[i]
+//            initNumber = i
+//        }
+//    }
+//    println(length)
+//    traceIndex(initNumber, numberList)
+
+// 연속합: 1912번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    var maxValue = 0
+//    val n = br.readLine().toInt()
+//    val inputList = br.readLine().split(" ").map { it.toInt() }
+//    val resultList = IntArray(n)
+//    for (i in 0 until n) {
+//        resultList[i] = inputList[i]
+//        if (i == 0) continue
+//        if (resultList[i] < resultList[i - 1] + inputList[i]) resultList[i] = resultList[i - 1] + inputList[i]
+//    }
+//    for (i in 0 until n) {
+//        if (i == 0) maxValue = resultList[i]
+//        if (resultList[i] > maxValue) maxValue = resultList[i]
+//    }
+//    println(maxValue)
 }
 
 // 1로 만들기: 1463번
@@ -110,4 +169,10 @@ fun main() {
 //    nCount[3] = 4
 //    for (i in 4..n) nCount[i] = nCount[i - 1] + nCount[i - 2] + nCount[i - 3]
 //    return nCount[n]
+//}
+
+//fun traceIndex(n: Int, numberList: List<Int>) {
+//    if (n == -1) return
+//    traceIndex(index[n], numberList)
+//    print(numberList[n].toString() + " ")
 //}
