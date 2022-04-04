@@ -2,13 +2,7 @@ import sys
 import math
 sys.setrecursionlimit(100000)
 
-n = int(input())
-d = [0]*(n+1)
-for i in range(1, n+1):
-    d[i] = i
-    j = 1
-    while j*j <= i:
-        if d[i] > d[i-j*j]+1:
-            d[i] = d[i-j*j]+1
-        j += 1
-print(d[n])
+for i in range(3):
+    index = [0, i]
+    for i in range(8):
+        print(index[1])

@@ -129,6 +129,51 @@ fun main() {
 //        if (resultList[i] > maxValue) maxValue = resultList[i]
 //    }
 //    println(maxValue)
+// 제곱수의 합: 1699번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val n = br.readLine().toInt()
+//    val result = IntArray(100001)
+//    for (i in 1..n) {
+//        result[i] = i
+//        var j = 1
+//        while (j * j <= i) {
+//            if (result[i] > result[i - j * j] + 1) result[i] = result[i - j * j] + 1
+//            j += 1
+//        }
+//    }
+//    println(result[n])
+
+// 합분해: 2225번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val (n, k) = br.readLine().split(" ").map { it.toInt() }
+//    val result = Array(k + 1) {LongArray(n + 1)}
+//    result[0][0] = 1L
+//    for (i in 1..k) {
+//        for (j in 0..n) {
+//            for (l in 0..j) {
+//                result[i][j] += result[i - 1][j - l]
+//                result[i][j] %= 1000000000L
+//            }
+//        }
+//    }
+//    println(result[k][n])
+
+// 1, 2, 3 더하기 3: 15988번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val result = LongArray(1000001)
+//    val mod = 1000000009L
+//    result[1] = 1
+//    result[2] = 2
+//    result[3] = 4
+//    for (i in 4..1000000) {
+//        result[i] = result[i - 1] + result[i - 2] + result[i - 3]
+//        result[i] %= mod
+//    }
+//    val n = br.readLine().toInt()
+//    for (i in 0 until n) {
+//        val temp = br.readLine().toInt()
+//        println(result[temp])
+//    }
 }
 
 // 1로 만들기: 1463번

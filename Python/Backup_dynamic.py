@@ -185,3 +185,39 @@ sys.setrecursionlimit(100000)
 #     if i == 0: continue
 #     if result[i - 1] + number_list[i] > result[i]: result[i] = result[i - 1] + number_list[i]
 # print(max(result))
+
+# 제곱수의 합: 1699번
+# n = int(sys.stdin.readline())
+#
+# result = [0] * (n + 1)
+# for i in range(1, n + 1):
+#     result[i] = i
+#     j = 1
+#     while j * j <= i:
+#         if result[i] > result[i - j * j] + 1: result[i] = result[i - j * j] + 1
+#         j += 1
+# print(result[n])
+
+# 합분해: 2225번
+# n, k = map(int, sys.stdin.readline().split(" "))
+#
+# result = [[0 for _ in range(n + 1)] for _ in range(k + 1)]
+# result[1] = [1 for _ in range(n + 1)]
+#
+# for i in range(2, k + 1):
+#     temp = 0
+#     for j in range(n + 1):
+#         temp += result[i - 1][j]
+#         result[i][j] = temp
+# print(result[k][n] % 1000000000)
+
+# 1, 2, 3 더하기 3: 15988번
+# nCount = [0] * (1000001)
+# nCount[1], nCount[2], nCount[3] = 1, 2, 4
+# for i in range(4, 1000001):
+#     nCount[i] = nCount[i - 1] + nCount[i - 2] + nCount[i - 3]
+#     nCount[i] %= 1000000009
+#
+# for _ in range(int(sys.stdin.readline())):
+#     input_number = int(sys.stdin.readline())
+#     print(nCount[input_number])

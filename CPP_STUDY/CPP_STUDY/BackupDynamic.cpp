@@ -228,3 +228,59 @@
 //    if (result[i] > maxValue) maxValue = result[i];
 //}
 //cout << maxValue << "\n";
+
+// 제곱수의 합: 1699번
+//ios_base::sync_with_stdio(false);
+//cin.tie(nullptr);
+//
+//int n, result[100001] = { 0 };
+//cin >> n;
+//for (int i = 1; i <= n; i++) {
+//    result[i] = i;
+//    for (int j = 1; j * j <= i; j++) {
+//        if (result[i] > result[i - j * j] + 1) result[i] = result[i - j * j] + 1;
+//    }
+//}
+//cout << result[n] << "\n";
+
+//합분해: 2225번
+//long long d[201][201];
+//long long mod = 1000000000;
+//int main() {
+//    int n, k;
+//    cin >> n >> k;
+//    d[0][0] = 1LL;
+//    for (int i = 1; i <= k; i++) {
+//        for (int j = 0; j <= n; j++) {
+//            for (int l = 0; l <= j; l++) {
+//                d[i][j] += d[i - 1][j - l];
+//                d[i][j] %= mod;
+//            }
+//        }
+//    }
+//    cout << d[k][n] << '\n';
+//    return 0;
+//}
+
+// 1, 2, 3 더하기 3: 15988번
+//long long result[1000001];
+//long long mod = 1000000009;
+//int main() {
+//    ios_base::sync_with_stdio(false);
+//    cin.tie(nullptr);
+//
+//    result[1] = 1; result[2] = 2; result[3] = 4;
+//    for (int i = 4; i <= 1000000; i++) {
+//        result[i] = result[i - 1] + result[i - 2] + result[i - 3];
+//        result[i] %= mod;
+//    }
+//    int n;
+//    cin >> n;
+//    for (int i = 0; i < n; i++) {
+//        int temp;
+//        cin >> temp;
+//        cout << result[temp] << "\n";
+//    }
+//
+//    return 0;
+//}

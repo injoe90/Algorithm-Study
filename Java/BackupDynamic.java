@@ -120,6 +120,47 @@ public class BackupDynamic {
 //            if (resultList[i] > maxValue) maxValue = resultList[i];
 //        }
 //        System.out.println(maxValue);
+
+// 제곱수의 합: 1699번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine());
+//        int[] result = new int[100001];
+//        for (int i = 0; i <= n; i++) {
+//            result[i] = i;
+//            for (int j = 1; j * j <= i; j++) {
+//                if (result[i] > result[i - j * j] + 1) result[i] = result[i - j * j] + 1;
+//            }
+//        }
+//        System.out.println(result[n]);
+
+// 합분해: 2225번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        String[] rawInput = br.readLine().split(" ");
+//        int n = Integer.parseInt(rawInput[0]); int k = Integer.parseInt(rawInput[1]);
+//        long[][] result = new long[k + 1][n + 1]; result[0][0] = 1;
+//        for (int i = 1; i <= k; i++) {
+//            for (int j = 0; j <= n; j++) {
+//                for (int l = 0; l <= j; l++) {
+//                    result[i][j] += result[i - 1][j - l];
+//                    result[i][j] %= 1000000000;
+//                }
+//            }
+//        }
+//        System.out.println(result[k][n]);
+
+// 1, 2, 3 더하기 3: 15988번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        long[] result = new long[1000001]; long mod = 1000000009;
+//        result[1] = 1; result[2] = 2; result[3] = 4;
+//        for (int i = 4; i <= 1000000; i++) {
+//            result[i] = result[i - 1] + result[i - 2] + result[i - 3];
+//            result[i] %= mod;
+//        }
+//        int n = Integer.parseInt(br.readLine());
+//        for (int i = 0; i < n; i++) {
+//            int temp = Integer.parseInt(br.readLine());
+//            System.out.println(result[temp]);
+//        }
     }
 // 1로 만들기: 1463번
 //    public  static  int makeOne(int n) {
