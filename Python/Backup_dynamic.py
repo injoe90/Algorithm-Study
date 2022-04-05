@@ -221,3 +221,31 @@ sys.setrecursionlimit(100000)
 # for _ in range(int(sys.stdin.readline())):
 #     input_number = int(sys.stdin.readline())
 #     print(nCount[input_number])
+
+# 동물원: 1309번
+# n = int(sys.stdin.readline())
+
+# result = [[0 for _ in range(3)] for _ in range(n + 1)]
+
+# result[0] = [1, 1, 1]
+
+# for i in range(1, n):
+#     result[i][0] = sum(result[i - 1])
+#     result[i][1] = result[i - 1][0] + result[i - 1][2]
+#     result[i][2] = result[i - 1][0] + result[i - 1][1]
+#     for j in range(3): result[i][j] %= 9901
+# print(sum(result[n - 1]) % 9901)
+
+# 오르막 수: 11057번
+# n = int(sys.stdin.readline())
+#
+# result = [[0 for _ in range(10)] for _ in range(n)]
+# result[0] = [1 for _ in range(10)]
+#
+# for i in range(1, n):
+#     temp = 0
+#     for j in range(10):
+#         temp += result[i - 1][j]
+#         result[i][j] = temp % 10007
+#
+# print(sum(result[n - 1]) % 10007)

@@ -284,3 +284,45 @@
 //
 //    return 0;
 //}
+
+// 동물원: 1309번
+//int n, result[100000][3];
+//int main() {
+//    ios_base::sync_with_stdio(false);
+//    cin.tie(nullptr);
+//    cin >> n;
+//    result[0][0] = 1; result[0][1] = 1; result[0][2] = 1;
+//    for (int i = 1; i < n; i++) {
+//        result[i][0] = result[i - 1][0] + result[i - 1][1] + result[i - 1][2];
+//        result[i][1] = result[i - 1][0] + result[i - 1][2];
+//        result[i][2] = result[i - 1][0] + result[i - 1][1];
+//        for (int j = 0; j < 3; j++) result[i][j] %= 9901;
+//    }
+//    int temp = result[n - 1][0] + result[n - 1][1] + result[n - 1][2];
+//    cout << temp % 9901 << "\n";
+//
+//    return 0;
+//}
+
+// 오르막 수: 11057번
+//using namespace std;
+//int n, result[1000][10];
+//
+//int main() {
+//    ios_base::sync_with_stdio(false);
+//    cin.tie(nullptr);
+//    cin >> n;
+//    for (int i = 0; i < 10; i++) result[0][i] = 1;
+//    for (int i = 1; i < n; i++) {
+//        int temp = 0;
+//        for (int j = 0; j < 10; j++) {
+//            temp += result[i - 1][j];
+//            result[i][j] = temp % 10007;
+//        }
+//    }
+//    int count = 0;
+//    for (int i = 0; i < 10; i++) count += result[n - 1][i];
+//    cout << count % 10007 << "\n";
+//
+//    return 0;
+//}

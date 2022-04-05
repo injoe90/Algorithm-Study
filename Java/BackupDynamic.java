@@ -161,6 +161,35 @@ public class BackupDynamic {
 //            int temp = Integer.parseInt(br.readLine());
 //            System.out.println(result[temp]);
 //        }
+// 동물원: 1309번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine());
+//        int[][] result = new int[n][3];
+//        result[0][0] = 1; result[0][1] = 1; result[0][2] = 1;
+//        for (int i = 1; i < n; i++) {
+//            result[i][0] = result[i - 1][0] + result[i - 1][1] + result[i - 1][2];
+//            result[i][1] = result[i - 1][0] + result[i - 1][2];
+//            result[i][2] = result[i - 1][0] + result[i - 1][1];
+//            for (int j = 0; j < 3; j++) result[i][j] %= 9901;
+//        }
+//        int temp = result[n - 1][0] + result[n - 1][1] + result[n - 1][2];
+//        System.out.println(temp % 9901);
+
+// 오르막 수: 11057번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine());
+//        int count = 0;
+//        int[][] result = new int[n][10];
+//        for (int i = 0; i < 10; i++) result[0][i] = 1;
+//        for (int i = 1; i < n; i++) {
+//            int temp = 0;
+//            for (int j = 0; j < 10; j++) {
+//                temp += result[i - 1][j];
+//                result[i][j] = temp % 10007;
+//            }
+//        }
+//        for (int i = 0; i < 10; i++) count += result[n - 1][i];
+//        System.out.println(count % 10007);
     }
 // 1로 만들기: 1463번
 //    public  static  int makeOne(int n) {

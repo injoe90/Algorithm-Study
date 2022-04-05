@@ -174,6 +174,38 @@ fun main() {
 //        val temp = br.readLine().toInt()
 //        println(result[temp])
 //    }
+// 동물원: 1309번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val n = br.readLine().toInt()
+//    val result = Array(n) {IntArray(3)}
+//    result[0][0] = 1
+//    result[0][1] = 1
+//    result[0][2] = 1
+//
+//    for (i in 1 until n) {
+//        result[i][0] = result[i - 1][0] + result[i - 1][1] + result[i - 1][2]
+//        result[i][1] = result[i - 1][0] + result[i - 1][2]
+//        result[i][2] = result[i - 1][0] + result[i - 1][1]
+//        for (j in 0..2) result[i][j] %= 9901
+//    }
+//    val temp = result[n - 1][0] + result[n - 1][1] + result[n - 1][2]
+//    println(temp % 9901)
+
+// 오르막 수: 11057번
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//    val n = br.readLine().toInt()
+//    var count = 0
+//    val result = Array(n) {IntArray(10)}
+//    for (i in 0 until 10) result[0][i] = 1
+//    for (i in 1 until n) {
+//        var temp = 0
+//        for (j in 0..9) {
+//            temp += result[i - 1][j]
+//            result[i][j] = temp % 10007
+//        }
+//    }
+//    for (i in 0..9) count += result[n - 1][i]
+//    println(count % 10007)
 }
 
 // 1로 만들기: 1463번
